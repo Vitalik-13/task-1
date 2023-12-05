@@ -691,7 +691,7 @@ a {
   .swiper-button-next,
   .swiper-button-prev {
     margin-top: -35px;
-    color: black;
+    color: white;
   }
 }
 @media (max-width: 360px) {

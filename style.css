@@ -344,6 +344,7 @@ a {
   max-width: 500px;
   min-height: 350px;
   padding: 25px 15px;
+  overflow-x: hidden;
 }
 
 .swiper-slide {

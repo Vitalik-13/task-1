@@ -539,6 +539,7 @@ a {
 }
 @media (max-width: 860px) {
   .main-content {
+    padding-top: 120px;
     flex-direction: column-reverse;
     text-align: center;
   }

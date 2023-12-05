@@ -681,13 +681,14 @@ a {
   .swiper {
     overflow-x: hidden;
   }
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin-top: -35px;
+    color: black;
+  }
 }
 @media (max-width: 360px) {
   .swiper {
     padding: 0 30px;
-  }
-  .swiper-button-next,
-  .swiper-button-prev {
-    margin-top: 250px;
   }
 }

@@ -638,6 +638,10 @@ a {
     align-items: center;
     gap: 25px 0;
   }
+  .image-in-screen {
+    width: 98%;
+    height: 122%;
+  }
   .big-result-item {
     width: 100%;
   }

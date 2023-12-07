@@ -148,7 +148,7 @@ a {
   width: 90%;
 }
 .main-foto {
-  width: 481px;
+  width: 530px;
   height: 100%;
   object-fit: contain;
 }
@@ -163,9 +163,13 @@ a {
   width: 100%;
 }
 .imge-screen {
-  width: 50%;
+  width: 80%;
   border-radius: 15px;
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.imge-screen:hover {
+  transform: scale(1.2);
 }
 /* fixed-blosk */
 .position-fixed {
@@ -541,6 +545,11 @@ a {
 }
 .center {
   text-align: center;
+}
+@media (max-width: 920px) {
+  .main-foto {
+    width: 418px;
+  }
 }
 @media (max-width: 950px) {
   .main-content {

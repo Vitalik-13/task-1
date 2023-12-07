@@ -631,6 +631,7 @@ a {
     margin-top: 250px;
   }
 }
+
 @media (max-width: 600px) {
   .resutl-content {
     flex-direction: column;
@@ -653,7 +654,7 @@ a {
     transition: all 0.5s ease;
   }
   .header-links {
-    background-color: rgba(27, 25, 25, 0.8);
+    background-color: #0c034c;
     padding: 20px;
     display: flex;
     flex-direction: column;
